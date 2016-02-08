@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="220dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating Place"
+            android:id="@+id/tvWelcome"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/ratingPlace"
+            android:numStars="5"
+            android:rating="0"
+            style="@style/styleRatingBar"
+            android:stepSize="0.5"
+            android:layout_below="@+id/tvWelcome"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserRating"
+            android:id="@+id/tvUserRating"
+            android:layout_below="@+id/ratingPlace"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

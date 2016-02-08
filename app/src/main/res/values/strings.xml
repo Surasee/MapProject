@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">MapPrippree</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">Abrir navigation drawer</string>
+    <string name="drawer_close">Cerrar navigation drawer</string>
+    <string name="headlines">Encabezados de</string>
+
+    <string name="forgetpass">กรุณากรอกรหัสผ่านให้ตรงกัน</string>
+    <string name="search_hint">Search Places</string>
+    <string name="search_settings">Search Places</string>
+
+
+    <string name="hint_email">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">Create Account</string>
+    <string name="btn_forgetpass">Forget Password</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_regis">RegisActivity</string>
+    <string name="title_dialog_detail">รายละเอียดสถานที่</string>
+    <string name="title_dialog_type">ประเภทของสภานที่ต่างๆ</string>
+    <string name="about_title">ผู้จัดทำ</string>
+    <string name="about_name">นายสุรสีห์ น้อยมหาไวย</string>
+    <string name="about_code">รหัสนักศักษา 544244123</string>
+    <string name="about_version">Version 1.0 beta</string>
+
+
+    <string name="register_title">Register</string>
+    <string name="register_username">Username : a-z,A-Z,0-9,_,-</string>
+    <string name="register_password">Password : More than 6 characters</string>
+    <string name="register_email">E-Mail</string>
+    <string name="register_age">Age</string>
+    <string name="register_gender_m">Male</string>
+    <string name="register_gender_f">Female</string>
+    <string name="register_career">Career</string>
+    <string name="register_interest">Interest</string>
+    <string name="register_language">Language</string>
+
+    <string name="edit_profile">Edit Profile</string>
+
+    <string name="welcome1">ยินดีต้อนรับ</string>
+    <string name="welcome2">เข้าสู่</string>
+
+    <string name="splash_text_title">คำขวัญ</string>
+    <string name="splash_text_province">ประจำจังหวัดเพชรบุรี</string>
+    <string name="splash_text_line1">เขาวังคู่บ้าน</string>
+    <string name="splash_text_line2">ขนมหวานเมืองพระ</string>
+    <string name="splash_text_line3">เลิศล้ำศิลปะ</string>
+    <string name="splash_text_line4">แดนธรรมะ</string>
+    <string name="splash_text_line5">ทะเลงาม</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="status">true</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="search_key"> ใส่คำค้นที่ต้องการ ห้ามเว้นวรรค </string>
+
+
+
+
+
+</resources>

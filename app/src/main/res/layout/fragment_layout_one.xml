@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+   <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:context="com.tho.mapprippree.FragmentOne"
+        class="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="#aeb0b0b0"
+        android:touchscreenBlocksFocus="false"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Style"
+            android:layout_weight="1"
+            android:id="@+id/btnMapStyle"
+            android:background="@drawable/ic_globalx4"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnplaceall"
+            android:background="@drawable/btn_show_all_c"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:layout_weight="1"
+            android:id="@+id/btnclear"
+            android:background="@drawable/btn_clear_all_c"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnSubtype"
+            android:background="@drawable/btn_sub_place_c"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp" />
+
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnTrackPlace"
+            android:background="@drawable/btn_track_c"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="3dp" />
+    </TableRow>
+</LinearLayout>

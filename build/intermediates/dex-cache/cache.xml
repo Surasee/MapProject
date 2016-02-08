@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Androideditor\AndroidStudioProjects\MapPrippree\app\libs\glide.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="784e413591ce6bd608fd90cf8cbbc205f931ec26">
+        <dex dex="D:\Androideditor\AndroidStudioProjects\MapPrippree\app\build\intermediates\pre-dexed\debug\glide-c08dc9be3115d63c50093f2395213c4c100f85ba.jar" />
+    </item>
+
+</items>

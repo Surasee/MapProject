@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:paddingBottom="5dp"
+    android:onClick="xxR">
+
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_title"
+            android:id="@+id/textView14"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtUsername"
+        android:singleLine="true"
+        android:hint="@string/register_username"
+        android:maxLength="50"
+        android:textColor="#000000"
+        android:layout_margin="2dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtPassword"
+        android:singleLine="true"
+        android:hint="@string/register_password"
+        android:maxLength="12"
+        android:textColor="#000000"
+        android:layout_margin="2dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/txtEmail"
+        android:singleLine="true"
+        android:hint="@string/register_email"
+        android:maxLength="255"
+        android:textColor="#000000"
+        android:layout_margin="2dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/txtAge"
+        android:singleLine="true"
+        android:hint="@string/register_age"
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:textColor="#000000"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="0dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/rbgGender"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_gender_m"
+            android:id="@+id/Male"
+            android:checked="true"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_gender_f"
+            android:id="@+id/Female"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="กรุณาเลือกอาชีพ"
+        android:id="@+id/textView17"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinCareer"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="กรุณาเลือกภาษา"
+        android:id="@+id/textView15"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinLanguage"
+        android:layout_marginTop="10dp"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ชนิดของสถานที่สนใจเป็นพิเศษ"
+        android:id="@+id/textView16"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinInterest"
+        android:layout_marginTop="10dp"
+        android:spinnerMode="dialog" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Summit"
+                android:id="@+id/btnSummit"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/custom_btn_regis" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:id="@+id/btnReset"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/custom_btn_reset" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
